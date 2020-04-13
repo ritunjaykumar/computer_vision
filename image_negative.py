@@ -22,9 +22,9 @@ def displayImage(img):
   
 def main():
 	img=cv.imread("/root/Documents/ip/images/sneakers.jpg")
-  img = img[...,::-1]
-  img1=makeNegativeImage(img)
-  diplayImage(img)
+	img = img[...,::-1]
+	img1=makeNegativeImage(img)
+	diplayImage(img)
   
 if __name__ == '__main__':
 	main()
